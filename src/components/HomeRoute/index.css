@@ -1,0 +1,141 @@
+.home-route-container{
+    min-height: 100vh;
+    min-width: 300px;
+    width: 100%;
+}
+@media screen and (min-width:576px) {
+    .home-route-container{
+        min-width: 830px;
+    }
+}
+
+.home-container{
+    min-height: 100vh;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("https://i.ibb.co/T8fbHfX/Rectangle-45012.png");
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.inside-banner-container{
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.bg-design{
+    width: 100%;
+    background-image: url("https://i.ibb.co/61jzWnp/Element.png");
+    background-size: cover;
+    height: 100px;
+    max-width: 600px;
+
+}
+
+.web-development-text{
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+}
+
+.banner-heading{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.banner-description{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.contact-now-button-con{
+    display: flex;
+    justify-content: center;
+}
+.contact-now-button{
+    margin-top: 10px;
+    background-color: rgb(170, 9, 170);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.floating-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -120px;
+    padding: 20px 0px;
+    overflow-x: hidden;
+}
+@media screen and (min-width:576px) {
+    .floating-section-container{
+        min-width: 830px;
+        padding: 20px;
+    }
+}
+
+.floating-cards-container{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:576px) {
+    .floating-cards-container{
+        width: 100vw;
+        overflow-x: auto;
+    }
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+/* .floating-card{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    background-color: orangered;
+} */
+
+.card-image{
+    margin: 8px;
+    transition: 0.3s ease-in-out;
+}
+@media screen and (max-width:576px) {
+    .card-image{
+        width: 150px;
+        margin: 10px;
+    }
+}
+
+.card-image:hover {
+    transform: scale(1.1);
+}
+
+.card-image1{
+    width: 190px;
+}
+.card-image2{
+    width: 185px;
+}
+.card-image3{
+    width: 170px;
+}
+.card-image4{
+    width: 200px;
+}

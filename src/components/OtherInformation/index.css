@@ -1,0 +1,120 @@
+
+.other-info-section-container {
+    background-image: url("https://i.ibb.co/T8fbHfX/Rectangle-45012.png");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.other-info-container{
+    padding: 20px;
+}
+@media screen and (min-width:768px) {
+    .other-info-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        max-width: 1000px;
+        padding: 40px 20px;
+    }
+}
+
+.query-container{
+    
+}
+@media screen and (min-width:768px) {
+    .query-container{
+        padding-right: 20px;
+    }
+}
+
+.query-text {
+    font-size: 20px;
+    color: white;
+}
+
+.query-def {
+    font-size: 10px;
+    color: white;
+    line-height: 17px;
+}
+.get-started-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    background-color: rgba(231, 87, 231, 0.233);
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.get-started-text{
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+}
+
+
+.next-generation-tech-card-container{
+    border: solid 1px  rgba(231, 87, 231, 0.233);
+    padding: 20px;
+    border-radius: 15px;
+}
+.next-generation-text{
+    color: white;
+    font-size: 12px;
+}
+.next-generation-def{
+    color: white;
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.line{
+    width: 80%;
+    border-bottom: solid 1px rgba(231, 87, 231, 0.233);
+    margin-bottom: -55px;
+    max-width: 1000px;
+    margin-top:40px;
+}
+
+.time-line-container{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .time-line-container{
+        width: 100vw;
+        overflow-x: scroll;
+    }
+}
+.time-line{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* .circle-icon-con{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.time-line-name{
+    color: white;
+    font-size: 13px;
+    margin-top: 0px;
+    text-align: center;
+    width: 120px;
+}
