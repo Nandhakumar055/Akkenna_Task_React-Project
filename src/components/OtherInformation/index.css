@@ -39,7 +39,7 @@
 
 .query-def {
     font-size: 10px;
-    color: white;
+    color: #C7C9D1;
     line-height: 17px;
 }
 .get-started-button-container{
@@ -67,10 +67,10 @@
 }
 .next-generation-text{
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 .next-generation-def{
-    color: white;
+    color: #C7C9D1;
     font-size: 10px;
     line-height: 17px;
 }

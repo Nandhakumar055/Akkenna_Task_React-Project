@@ -3,6 +3,11 @@
     padding: 10px 20px;
     width: 100%;
 }
+@media screen and (min-width:992px) {
+    .header-section-container{
+        padding: 10px 50px;
+    }
+}
 
 
 .small-device-header-container{
@@ -92,8 +97,6 @@
         font-size: 12px;
     }
 }
-
-
 
 .large-device-header-container{
     display: flex;

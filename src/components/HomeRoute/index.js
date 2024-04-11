@@ -33,7 +33,7 @@ const HomeRoute = () =>(
                     <img src="https://i.ibb.co/q0vYbyG/Widget-01.png" className='card-image1 card-image' alt="Widget-01" />
                     <img src="https://i.ibb.co/2K9ftnN/Widget-02.png" className='card-image2 card-image' alt="Widget-02" />
                     <img src="https://i.ibb.co/Sy2jBwP/Widget-04.png" className='card-image3 card-image' alt="Widget-03" />
-                    <img src="https://i.ibb.co/y0W9prj/Group-1000001030.png" className='card-image4 card-image' alt="Widget-04" />
+                    <img src="https://i.ibb.co/RP4xRRT/Widget-05.png" className='card-image4 card-image' alt="Widget-04" />
                 </div>
             </div>  
             <Service />

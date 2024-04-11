@@ -56,7 +56,7 @@
 }
 
 .product-image-container{
-    background-color: gray;
+    background-color:#C7C9D1;
     width: 100%;
     height: 200px;
     border-radius: 10px 10px 0px 0px;
@@ -81,11 +81,12 @@
 }
 
 .product-name{
-    font-size: 14px;
+    font-size: 15px;
 }
 .product-description{
     font-size: 10px;
     line-height: 16px;
+    color : gray ;
 }
 .underline{
     width: 100%;
